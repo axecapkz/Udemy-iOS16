@@ -16,26 +16,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="nct-vt-C88">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="qWF-au-sa6">
                                 <rect key="frame" x="0.0" y="47" width="390" height="763"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="qW7-4g-h1N"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="hMW-Va-PKL"/>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Z8R-Fa-aZM"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="gEu-D1-B6H"/>
                                 </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="nct-vt-C88" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YBs-JD-6ee"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nct-vt-C88" secondAttribute="trailing" id="idV-oU-FBH"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nct-vt-C88" secondAttribute="bottom" id="jmY-aL-C9e"/>
-                            <constraint firstItem="nct-vt-C88" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sSf-2L-uoH"/>
+                            <constraint firstItem="qWF-au-sa6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="14f-iH-NbI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qWF-au-sa6" secondAttribute="bottom" id="OhS-R2-19t"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qWF-au-sa6" secondAttribute="trailing" id="ryO-70-Cf4"/>
+                            <constraint firstItem="qWF-au-sa6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="tl6-Ts-1Pi"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="countryTableView" destination="nct-vt-C88" id="1kq-gm-sAY"/>
+                        <outlet property="countriesTable" destination="qWF-au-sa6" id="4Nv-ZA-sVS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
